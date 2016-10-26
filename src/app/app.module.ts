@@ -13,6 +13,7 @@ import { YamanoteStudiosTitleDropdownComponent } from './yamanote-studios-title-
 
 // primeng modules
 import {DropDownModule} from 'primeng/primeng';
+import { YamanoteStudiosCountryDropdownComponent } from './yamanote-studios-country-dropdown/yamanote-studios-country-dropdown.component';
 
 
 //create a router config
@@ -27,7 +28,8 @@ export const routeConfig = [
     YamanoteStudiosFooterComponent,
     YamanoteStudiosInputComponent,
     YamanoteStudiosCreditCardTypeDropdownComponent,
-    YamanoteStudiosTitleDropdownComponent
+    YamanoteStudiosTitleDropdownComponent,
+    YamanoteStudiosCountryDropdownComponent
   ],
   imports: [
     BrowserModule,
