@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class YamanoteStudiosFooterComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log("created footer component instance")
+  }
 
   ngOnInit() {
   }

@@ -23,6 +23,8 @@ export class YamanoteStudiosTitleDropdownComponent implements OnInit {
 
 
   constructor() {
+    console.log("create a title dropdown instance");
+
     this.titles = [];
     this.titles.push({label: '' ,value: ''});
     this.titles.push({label: 'Select Title' ,value: 'null'});

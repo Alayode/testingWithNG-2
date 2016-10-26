@@ -5,19 +5,19 @@ import { DebugElement } from '@angular/core';
 
 import { YamanoteStudiosAlertBoxComponent } from './yamanote-studios-alert-box.component';
 
-describe('YamanoteStudiosCountryDropdownComponent', () => {
-  let component: YamanoteStudiosCountryDropdownComponent;
-  let fixture: ComponentFixture<YamanoteStudiosCountryDropdownComponent>;
+describe('YamanoteStudiosAlertBoxComponent', () => {
+  let component: YamanoteStudiosAlertBoxComponent;
+  let fixture: ComponentFixture<YamanoteStudiosAlertBoxComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ YamanoteStudiosCountryDropdownComponent ]
+      declarations: [ YamanoteStudiosAlertBoxComponent ]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(YamanoteStudiosCountryDropdownComponent);
+    fixture = TestBed.createComponent(YamanoteStudiosAlertBoxComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

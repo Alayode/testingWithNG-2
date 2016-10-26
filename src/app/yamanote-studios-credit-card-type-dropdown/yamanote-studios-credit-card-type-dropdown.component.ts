@@ -16,7 +16,7 @@ export class YamanoteStudiosCreditCardTypeDropdownComponent implements OnInit {
   @Output() ngModelChange: EventEmitter<String> = new EventEmitter<String>();
 
   constructor() {
-    // console.log("create an credit-card-DropDown instance");
+    console.log("create an credit-card-DropDown instance");
     this.cards = [];
     this.cards.push({label: 'Select Card', value: null});
     this.cards.push({label: 'JetBlue World MasterCard', value: 'JC'});

@@ -12,6 +12,10 @@ import {Component} from '@angular/core';
 
 export class AppComponent {
 
+    constructor(){
+      console.log("Intializing app instance")
+    }
+
     public isCollapsed = true;
 
     title = 'app works!';

@@ -4,7 +4,7 @@ import { Component, Input, Output, EventEmitter, OnInit } from '@angular/core';
 @Component({
   selector: 'app-yamanote-studios-alert-box',
   templateUrl: './yamanote-studios-alert-box.component.html',
-  styleUrls: ['./yamanote-studios-alert-box.component.css']
+  styleUrls: ['./yamanote-studios-alert-box.component.css'],
   inputs:['dangerMsgs','successMsgs','warningMsgs','infoMsgs']
 
 })
@@ -21,7 +21,9 @@ export class YamanoteStudiosAlertBoxComponent implements OnInit {
   infoMsgs: any = [];
 
 
-  constructor() { }
+  constructor() {
+    console.log("create alert box instance")
+  }
 
   ngOnInit() {
   }

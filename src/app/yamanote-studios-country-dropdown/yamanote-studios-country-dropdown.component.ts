@@ -17,7 +17,7 @@ export class YamanoteStudiosCountryDropdownComponent implements OnInit {
   defaultValue:string = "US";
 
   constructor() {
-    // console.log("create a countries dropdown instance");
+    console.log("create a countries dropdown instance");
     this.countries = [];
     this.countries.push({value:null, label:'Select Country'});
     this.countries.push({value: "AF", label: 'Afghanistan'});
