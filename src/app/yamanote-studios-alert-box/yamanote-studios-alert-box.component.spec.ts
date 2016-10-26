@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { YamanoteStudiosCreditCardTypeDropdownComponent } from './yamanote-studios-credit-card-type-dropdown.component';
+import { YamanoteStudiosAlertBoxComponent } from './yamanote-studios-alert-box.component';
 
-describe('YamanoteStudiosCreditCardTypeDropdownComponent', () => {
-  let component: YamanoteStudiosCreditCardTypeDropdownComponent;
-  let fixture: ComponentFixture<YamanoteStudiosCreditCardTypeDropdownComponent>;
+describe('YamanoteStudiosCountryDropdownComponent', () => {
+  let component: YamanoteStudiosCountryDropdownComponent;
+  let fixture: ComponentFixture<YamanoteStudiosCountryDropdownComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ YamanoteStudiosCreditCardTypeDropdownComponent ]
+      declarations: [ YamanoteStudiosCountryDropdownComponent ]
     })
       .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(YamanoteStudiosCreditCardTypeDropdownComponent);
+    fixture = TestBed.createComponent(YamanoteStudiosCountryDropdownComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

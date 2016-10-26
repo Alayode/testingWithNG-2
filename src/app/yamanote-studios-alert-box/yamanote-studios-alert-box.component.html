@@ -1,0 +1,24 @@
+<div *ngIf="dangerMsgs.length > 0" class="alert alert-danger" role="alert">
+  <div class="row">
+    <strong>Sorry!</strong> Please complete the follow fields and try submitting again.
+  </div>
+  <div *ngFor="let dangerMsg of dangerMsgs" class="row">{{dangerMsg}}</div>
+</div>
+<div *ngIf="successMsgs.length > 0" class="alert alert-success" role="alert">
+  <div class="row">
+    <strong>Congratulations!</strong> You have successfully completed:
+  </div>
+  <div *ngFor="let successMsg of successMsgs" class="row">{{successMsg}}</div>
+</div>
+<div *ngIf="warningMsgs.length > 0" class="alert alert-warning" role="alert">
+  <div class="row">
+    <strong>Warning!</strong> Please be aware of the following concerns.
+  </div>
+  <div *ngFor="let warningMsg of warningMsgs" class="row">{{warningMsg}}</div>
+</div>
+<div *ngIf="infoMsgs.length > 0" class="alert alert-info" role="alert">
+  <div class="row">
+    <strong>Tip!</strong> Did you know..."
+  </div>
+  <div *ngFor="let infoMsg of infoMsgs" class="row">{{infoMsg}}</div>
+</div>
