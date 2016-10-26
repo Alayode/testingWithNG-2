@@ -15,6 +15,7 @@ import {YamanoteStudiosTitleDropdownComponent} from './yamanote-studios-title-dr
 import {DropDownModule} from 'primeng/primeng';
 import {YamanoteStudiosCountryDropdownComponent} from './yamanote-studios-country-dropdown/yamanote-studios-country-dropdown.component';
 import { YamanoteStudiosAlertBoxComponent } from './yamanote-studios-alert-box/yamanote-studios-alert-box.component';
+import { YamanoteStudiosBubbleTipComponent } from './yamanote-studios-bubble-tip/yamanote-studios-bubble-tip.component';
 
 
 //create a router config
@@ -31,7 +32,8 @@ export const routeConfig = [
     YamanoteStudiosCreditCardTypeDropdownComponent,
     YamanoteStudiosTitleDropdownComponent,
     YamanoteStudiosCountryDropdownComponent,
-    YamanoteStudiosAlertBoxComponent
+    YamanoteStudiosAlertBoxComponent,
+    YamanoteStudiosBubbleTipComponent
   ],
   imports: [
     BrowserModule,
