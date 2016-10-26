@@ -1,0 +1,26 @@
+<h1>
+  {{title}}
+</h1>
+
+<div class="container-fluid appcontainer" [ngClass]="{headerCollapseOpen: !isCollapsed}">
+  <div class="row headerContainer">
+    <!--<app-jb-header (isCollapsedEvent)="isCollapsedEvent($event)" class="col-xs-12"></app-jb-header>-->
+
+  </div>
+  <div class="row contentContainer">
+    <nav class="breadcrumb">
+      <a class="breadcrumb-item">Search</a>
+      <a class="breadcrumb-item">Price</a>
+      <a class="breadcrumb-item">Payment</a>
+      <a class="breadcrumb-item">Confirm</a>
+    <!--<a class="breadcrumb-item" [routerLink]="['/price']"  routerLinkActive="active">Price</a>-->
+      <!--<a class="breadcrumb-item" [routerLink]="['/booking/travelers-info']" routerLinkActive="active">Reservation</a>-->
+      <!--<a class="breadcrumb-item" [routerLink]="['/payment']"  routerLinkActive="active">Payment</a>-->
+      <!--<a class="breadcrumb-item" [routerLink]="['/confirm']"  routerLinkActive="active">Confirm</a>-->
+    </nav>
+    <!--<router-outlet></router-outlet>-->
+  </div>
+  <!--<div class="row footerContainer">-->
+    <!--<app-jb-footer class="col-xs-12" ></app-jb-footer>-->
+  <!--</div>-->
+</div>
